@@ -3,9 +3,11 @@ from requests.auth import HTTPBasicAuth
 
 from pprint import pp
 
-# Post Example
-# https://www.drupal.org/docs/core-modules-and-themes/core-modules/jsonapi-module/creating-new-resources-post?utm_source=pocket_mylist
-
+"""
+Example to call Drupal 9 API with POST method to create new content.
+Related explaination post is at 
+https://weimingchenzero.medium.com/use-python-to-call-drupal-9-core-restful-api-to-create-new-content-9f3fa8628ab4
+"""
 
 endpoint = 'https://drupal9.site/jsonapi/node/article'
 
